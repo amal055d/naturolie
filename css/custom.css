@@ -12,20 +12,42 @@
   }
 }
 
-@media (min-width: 576px) {
-  .frontpage {
-    padding: 60px;
-  }
-}
-
 img {
   width: 80%;
 }
-.frontpage {
+.container {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
-.brun {
+.amal-brun {
   background-color: #d0bdb7;
   height: 20vh;
+}
+
+.amal-btn {
+  background-color: #383547;
+  color: white;
+}
+
+.blaae-btn {
+  background-color: #fae9e0;
+  color: #383547;
+}
+
+.btn {
+  display: block;
+  padding: 10 px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+.card-deck {
+  background-image: url(../img/blad1.png);
+  background-image: url(../img/blad2.png);
+}
+h1 {
+  display: flex;
+}
+.produkter {
+  text-align: center;
 }
