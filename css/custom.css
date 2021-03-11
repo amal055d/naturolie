@@ -1,0 +1,31 @@
+.amal-hero {
+  background-color: #fae9e0;
+  background-size: cover;
+  background-position: 100% 50%;
+  height: calc(90vh - 56px);
+}
+
+@media (min-width: 576px) {
+  .amal-hero {
+    height: 86vh;
+    min-height: 300px;
+  }
+}
+
+@media (min-width: 576px) {
+  .frontpage {
+    padding: 60px;
+  }
+}
+
+img {
+  width: 80%;
+}
+.frontpage {
+  display: flex;
+  justify-content: center;
+}
+.brun {
+  background-color: #d0bdb7;
+  height: 20vh;
+}
