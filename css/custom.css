@@ -51,3 +51,7 @@ h1 {
 .produkter {
   text-align: center;
 }
+.konkurrence {
+  background-color: #d0bdb7;
+  height: 60vh;
+}
