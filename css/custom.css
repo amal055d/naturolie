@@ -67,3 +67,22 @@ h1 {
     width: 15%;
   }
 }
+.btn-primary {
+  background-color: #fae9e0;
+  color: #383547;
+  border: none;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+}
+.btn-primary:focus {
+  background-color: #d0bdb7;
+  border: none;
+}
+@media (min-width: 576px) {
+  .btn-primary {
+    margin-left: 15.5rem;
+  }
+}
+.baggrund-info {
+  padding: 1rem;
+}
