@@ -1,14 +1,21 @@
-.amal-hero {
+.amal-btn-primary {
   background-color: #fae9e0;
+  color: #383547;
+  font-family: "Montserrat", sans-serif;
+}
+
+.amal-hero {
+  background-image: url(../img/splash.jpg);
+
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: 100% 50%;
   height: calc(55vh - 56px);
 }
 
 @media (min-width: 576px) {
   .amal-hero {
-    height: 50vh;
-    min-height: 30px;
+    height: 60vh;
+    min-height: 300px;
   }
 }
 
@@ -28,23 +35,24 @@ img {
 .amal-btn {
   background-color: #383547;
   color: white;
+  font-family: "Montserrat", sans-serif;
 }
 
 .blaae-btn {
   background-color: #fae9e0;
   color: #383547;
+  font-family: "Montserrat", sans-serif;
 }
 
 .btn {
   padding-right: 80px;
   padding-left: 80px;
 }
-.card-deck {
-  background-image: url(../img/blad1.png);
-  background-image: url(../img/blad2.png);
-}
-h1 {
-  display: flex;
+
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
 }
 .produkter {
   text-align: center;
@@ -73,6 +81,7 @@ h1 {
   border: none;
   margin-left: 1rem;
   margin-bottom: 2rem;
+  font-family: "Montserrat", sans-serif;
 }
 .btn-primary:focus {
   background-color: #d0bdb7;
@@ -80,9 +89,13 @@ h1 {
 }
 @media (min-width: 576px) {
   .btn-primary {
-    margin-left: 15.5rem;
+    margin-left: 10rem;
   }
 }
 .baggrund-info {
   padding: 1rem;
+  margin-bottom: 5rem;
+}
+p {
+  font-family: "Open Sans", sans-serif;
 }
