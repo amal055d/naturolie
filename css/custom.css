@@ -2,6 +2,7 @@
   background-color: #fae9e0;
   color: #383547;
   font-family: "Montserrat", sans-serif;
+  box-shadow: 100%;
 }
 
 .amal-hero {
@@ -50,9 +51,15 @@ img {
 }
 
 h1,
-h2,
-h3 {
+h2 {
   font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+}
+h3 {
+  font-family: "Open Sans", "sans-serif";
 }
 .produkter {
   text-align: center;
