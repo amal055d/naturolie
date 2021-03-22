@@ -9,8 +9,8 @@ gsap.from(divs, {
   stagger: 1,
   ScrollTrigger: {
     trigger: "#sektion1",
-    start: "top center",
-    end: "center center",
+    start: "top 50%",
+    end: "bottom 75%",
     markers: true,
   },
 });
