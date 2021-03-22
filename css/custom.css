@@ -3,6 +3,7 @@
   color: #383547;
   font-family: "Montserrat", sans-serif;
   box-shadow: 100%;
+  margin-bottom: 2rem;
 }
 
 .amal-hero {
@@ -83,8 +84,8 @@ h3 {
   }
 }
 .btn-primary {
-  background-color: #fae9e0;
-  color: #383547;
+  background-color: #383547;
+  color: #fae9e0;
   border: none;
   margin-left: 1rem;
   margin-bottom: 2rem;
