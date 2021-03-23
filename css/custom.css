@@ -6,11 +6,27 @@
   margin-bottom: 2rem;
 }
 
-.amal-hero {
-  background-image: url(../img/splash.jpg);
-  background-size: cover;
-  background-position: 100% 50%;
-  height: calc(55vh - 56px);
+header {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
 }
 
 @media (min-width: 576px) {
@@ -34,8 +50,10 @@ img {
 
 .amal-btn {
   background-color: #383547;
-  color: white;
   font-family: "Montserrat", sans-serif;
+  color: #fae9e0;
+  margin-top: 20px;
+  margin-left: 6rem;
 }
 
 .blaae-btn {
@@ -89,9 +107,9 @@ h3 {
   margin-bottom: 2rem;
   font-family: "Montserrat", sans-serif;
 }
-.btn-primary:focus {
+.btn-primary {
   background-color: #d0bdb7;
-  border: none;
+  border-color: none;
 }
 @media (min-width: 576px) {
   .btn-primary {
@@ -135,6 +153,7 @@ li {
 
 .btn:hover {
   transform: scale(1.1);
+  background-color: #fae9e0;
 }
 
 @keyframes headShake {
