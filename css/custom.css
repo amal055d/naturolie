@@ -129,6 +129,13 @@ li {
   align-content: center;
   font-family: "Montserrat", sans-serif;
 }
+.card:hover {
+  transform: scale(1.1);
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
 
 @keyframes headShake {
   0% {
