@@ -8,7 +8,7 @@ gsap.from(".guide_sek", {
     start: "top center",
 
     end: "center center",
-    markers: true,
+
     scrub: true,
   },
 });
@@ -22,7 +22,7 @@ gsap.from(".helbred_sek", {
     start: "top center",
 
     end: "center center",
-    markers: true,
+
     scrub: true,
   },
 });
@@ -36,7 +36,7 @@ gsap.from(".product_sek", {
     start: "top center",
 
     end: "center center",
-    markers: true,
+
     scrub: true,
   },
 });
@@ -50,7 +50,7 @@ gsap.from(".kon_sek", {
     start: "top center",
 
     end: "center center",
-    markers: true,
+
     scrub: true,
   },
 });
