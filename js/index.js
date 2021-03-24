@@ -1,32 +1,56 @@
-gsap.registerPlugin(ScrollTrigger);
-
-const divs = document.querySelectorAll("#sektion1 > div");
-
-gsap.from(divs, {
-  x: 100,
-  duration: 3,
+gsap.from(".guide_sek", {
+  opacity: 0,
+  duration: 1,
   stagger: 1,
-  ScrollTrigger: {
-    trigger: "#sektion1",
+  scrollTrigger: {
+    trigger: ".blend",
+
     start: "top center",
+
+    end: "center center",
+    markers: true,
+    scrub: true,
   },
 });
+gsap.from(".helbred_sek", {
+  opacity: 0,
+  duration: 1,
+  stagger: 1,
+  scrollTrigger: {
+    trigger: ".focus",
 
-ScrollTrigger.create({
-  trigger: "divs",
+    start: "top center",
 
-  toggleClass: "active",
-  //   toggleClass: { targets: "#produkt1 h1", className: "active" },
-  once: true,
-  markers: true,
+    end: "center center",
+    markers: true,
+    scrub: true,
+  },
 });
+gsap.from(".product_sek", {
+  opacity: 0,
+  duration: 1,
+  stagger: 1,
+  scrollTrigger: {
+    trigger: ".wuh",
 
-const p = document.querySelector("p");
+    start: "top center",
 
-ScrollTrigger.create({
-  trigger: p,
-  start: "top center",
-  toggleClass: "animate__headShake",
-  once: true,
-  markers: true,
+    end: "center center",
+    markers: true,
+    scrub: true,
+  },
+});
+gsap.from(".kon_sek", {
+  opacity: 0,
+  duration: 1,
+  stagger: 1,
+  scrollTrigger: {
+    trigger: ".ja",
+
+    start: "top center",
+
+    end: "center center",
+    markers: true,
+    scrub: true,
+  },
 });

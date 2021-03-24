@@ -8,8 +8,7 @@
 
 header {
   position: relative;
-  background-color: black;
-  height: 75vh;
+  height: 60vh;
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
@@ -27,13 +26,6 @@ header video {
   -moz-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-}
-
-@media (min-width: 576px) {
-  .amal-hero {
-    height: 60vh;
-    min-height: 300px;
-  }
 }
 
 img {
@@ -70,6 +62,7 @@ img {
 h1,
 h2 {
   font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: subpixel-antialiased;
 }
 
 h1 {
@@ -77,6 +70,7 @@ h1 {
 }
 h3 {
   font-family: "Open Sans", "sans-serif";
+  -webkit-font-smoothing: subpixel-antialiased;
 }
 .produkter {
   text-align: center;
@@ -142,9 +136,6 @@ li {
   color: #fae9e0;
   padding-right: 80px;
   padding-left: 80px;
-  margin-top: 20px;
-  display: flex;
-  align-content: center;
   font-family: "Montserrat", sans-serif;
 }
 .card:hover {
@@ -154,42 +145,4 @@ li {
 .btn:hover {
   transform: scale(1.1);
   background-color: #fae9e0;
-}
-
-@keyframes headShake {
-  0% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-  }
-
-  6.5% {
-    -webkit-transform: translateX(-6px) rotateY(-9deg);
-    transform: translateX(-6px) rotateY(-9deg);
-  }
-
-  18.5% {
-    -webkit-transform: translateX(5px) rotateY(7deg);
-    transform: translateX(5px) rotateY(7deg);
-  }
-
-  31.5% {
-    -webkit-transform: translateX(-3px) rotateY(-5deg);
-    transform: translateX(-3px) rotateY(-5deg);
-  }
-
-  43.5% {
-    -webkit-transform: translateX(2px) rotateY(3deg);
-    transform: translateX(2px) rotateY(3deg);
-  }
-
-  50% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-  }
-}
-.animate__headShake {
-  -webkit-animation-timing-function: ease-in-out;
-  animation-timing-function: ease-in-out;
-  -webkit-animation-name: headShake;
-  animation-name: headShake;
 }
